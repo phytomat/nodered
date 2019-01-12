@@ -21,7 +21,7 @@ COPY package.json /usr/src/node-red/
 RUN npm install
 
 #palette influxDB
-RUN npm install node-red-contrib-flightaware
+RUN npm install node-red-contrib-influxdb
 
 # User configuration directory volume
 EXPOSE 1880
